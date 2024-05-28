@@ -275,8 +275,8 @@ int main() {
  sortRowsByMaxElement(&matrixForSorting);
  outputMatrix(matrixForSorting);
  // Освобождаем память от матриц
- freeMemMatrix(&squareMatrix);
- freeMemMatrix(&matrixForSorting);
+    freeMemMatrix(&squareMatrix);
+    freeMemMatrix(&matrixForSorting);
  // Создаем и заполняем матрицу
     matrix myMatrix = createMatrixFromArray((const int[]){
     3, 5, 2, 4, 3, 3,
