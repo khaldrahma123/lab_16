@@ -132,8 +132,8 @@ long long getSpecialScalarProduct(matrix m, int n) {
  for (int i = 0; i < m.nRows; i++) {
  for (int j = 0; j < m.nCols; j++) {
  if (m.values[i][j] > maxElement) {
- maxElement = m.values[i][j];
-maxRowIdx = i;
+    maxElement = m.values[i][j];
+    maxRowIdx = i;
  }
  }
  }

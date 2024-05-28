@@ -111,7 +111,7 @@ position getLeftMin(matrix m) {
 // Функция для обмена предпоследней строки с найденным столбцом
 void swapPenultimateRow(matrix m, int n) {
  // Находим позицию первого минимального элемента в первом столбце
-    position minPos = getLeftMin(m);
+ position minPos = getLeftMin(m);
  // Обмен предпоследней строки с столбцом, в котором находится минимальный
 элемент
  for (int i = 0; i < m.nCols; i++) {
