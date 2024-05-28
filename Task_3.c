@@ -107,8 +107,8 @@ int getVectorIndexWithMaxAngle(matrix m, int *b) {
  for (int i = 0; i < m.nRows; i++) {
  double cosine = getCosine(m.values[i], b, m.nCols);
  if (cosine > maxCosine) {
- maxCosine = cosine;
- maxIndex = i;
+    maxCosine = cosine;
+    maxIndex = i;
  }
  }
  return maxIndex;
