@@ -19,8 +19,8 @@ float matrixNorm(matrix m) {
  return maxAbsValue;
 }
 // Функция для поиска матрицы с наименьшей нормой в массиве матриц
-matrix findMatrixWithMinNorm(matrix *ms, int nMatrices) {
- matrix minNormMatrix = ms[0];
+    matrix findMatrixWithMinNorm(matrix *ms, int nMatrices) {
+     matrix minNormMatrix = ms[0];
  float minNorm = matrixNorm(minNormMatrix);
  for (int i = 1; i < nMatrices; i++) {
  float norm = matrixNorm(ms[i]);
