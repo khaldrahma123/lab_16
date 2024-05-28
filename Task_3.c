@@ -25,8 +25,8 @@ float matrixNorm(matrix m) {
  for (int i = 1; i < nMatrices; i++) {
  float norm = matrixNorm(ms[i]);
  if (norm < minNorm) {
- minNorm = norm;
- minNormMatrix = ms[i];
+    minNorm = norm;
+    minNormMatrix = ms[i];
  }
  }
  return minNormMatrix;
