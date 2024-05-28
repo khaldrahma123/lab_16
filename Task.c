@@ -278,11 +278,11 @@ int main() {
  freeMemMatrix(&squareMatrix);
  freeMemMatrix(&matrixForSorting);
  // Создаем и заполняем матрицу
- matrix myMatrix = createMatrixFromArray((const int[]){
- 3, 5, 2, 4, 3, 3,
- 2, 5, 1, 8, 2, 7,
- 6, 1, 4, 4, 8, 3
- }, 3, 6);
+    matrix myMatrix = createMatrixFromArray((const int[]){
+    3, 5, 2, 4, 3, 3,
+    2, 5, 1, 8, 2, 7,
+    6, 1, 4, 4, 8, 3
+    }, 3, 6);
  outputMatrix(myMatrix);
  // Задача 3: Упорядочить столбцы матрицы по неубыванию минимальных
 элементов столбцов
