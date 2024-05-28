@@ -324,11 +324,11 @@ int main() {
  freeMemMatrix(&m1);
  freeMemMatrix(&m2);
  // Задача 7: Найти сумму максимальных элементов псевдодиагоналей матрицы.
- int matrix[MAX_ROWS][MAX_COLS] = {
- {1, 2, 3},
- {4, 5, 6},
- {7, 8, 9}
- };
+     int matrix[MAX_ROWS][MAX_COLS] = {
+     {1, 2, 3},
+     {4, 5, 6},
+     {7, 8, 9}
+     };
  int rows = 3, cols = 3;
  long long sum = findSumOfMaxesOfPseudoDiagonal(matrix, rows, cols);
  printf("Сумма максимальных элементов псевдодиагоналей матрицы: %lld\n", 
