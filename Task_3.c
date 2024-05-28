@@ -155,11 +155,11 @@ int main() {
  // Пример массива целочисленных квадратных матриц
 18
  matrix matrices[] = {
- createMatrixFromArray((const int[]){
- 1, 2, 3,
- 4, 5, 6,
- 7, 8, 9
- }, 3, 3),
+    createMatrixFromArray((const int[]){
+    1, 2, 3,
+    4, 5, 6,
+    7, 8, 9
+    }, 3, 3),
  createMatrixFromArray((const int[]){
  -3, 4, -5,
  6, -7, 8,
